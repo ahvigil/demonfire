@@ -1,0 +1,34 @@
+# binary files
+bin/**
+examples/*/build
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Macs are evil
+**/.DS_Store
+
+# CMake files
+**/CMakeFiles/**/**
+CMakeCache.txt
+cmake_install.cmake
+
+# itk build generated files
+ITKIOFactoryRegistration
